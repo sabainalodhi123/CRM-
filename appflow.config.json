@@ -1,5 +1,5 @@
 {
-  "android": {
-    "androidPath": "./platforms/android/app"
+  "ios": {
+    "iosPath": "./platforms/ios"
   }
 }
