@@ -1,7 +1,7 @@
 {
   "app": {
-    "id": "your_app_id",
-    "name": "Your App Name",
+    "id": "CRM",
+    "name": "CRM",
     "version": "1.0.0"
   },
   "build": {
@@ -9,17 +9,12 @@
     "config": {
       "ios": {
         "buildSettings": {
-          "PRODUCT_BUNDLE_IDENTIFIER": "com.yourcompany.yourapp",
-          "CODE_SIGN_IDENTITY": "iPhone Developer",
-          "PROVISIONING_PROFILE_SPECIFIER": "your_provisioning_profile"
+          "PRODUCT_BUNDLE_IDENTIFIER": "com.Habico.yourapp",
+          "CODE_SIGN_IDENTITY": "909090909",
+          "PROVISIONING_PROFILE_SPECIFIER": "habico"
         }
       }
     }
   },
-  "deploy": {
-    "store": {
-      "username": "your_app_store_username",
-      "password": "your_app_store_password"
-    }
-  }
+
 }
