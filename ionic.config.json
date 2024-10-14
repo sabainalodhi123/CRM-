@@ -11,5 +11,9 @@
       "electronJS": "electron.js"
     }
   } 
-
+{
+  "ios": {
+    "iosPath": "./platforms/ios/CRM-.xcodeproj"
+  }
+}
 }
