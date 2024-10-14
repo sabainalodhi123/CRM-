@@ -1,5 +1,5 @@
 {
   "ios": {
-    "iosPath": "ios/CRM.xcodeproj"
+    "iosPath": "App/App.xcodeproj"
   }
 }
