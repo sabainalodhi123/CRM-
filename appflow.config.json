@@ -7,13 +7,7 @@
             "dependencyInstallCommand": "npm install",
             "webBuildCommand": "ionic build",
             "iosPath": "platforms/ios",
-            "androidPath": "platforms/android",
-            "iosConfig": {
-                "scheme": "my-app",
-                "configuration": "Release",
-                "archivePath": "archives/my-app.xcarchive",
-                "ipaPath": "archives/my-app.ipa"
-            }
+            "androidPath": "platforms/android"
         },
         ...
     ]
