@@ -2,7 +2,7 @@
     "apps":
     [
         {
-            "appId": "a0000a0a",
+            "appId": "c9364389",
             "root": "apps/my-app",
             "dependencyInstallCommand": "npm install",
             "webBuildCommand": "ionic build",
