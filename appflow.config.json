@@ -1,4 +1,11 @@
 {
+  "key1": "value1",
+  "key2": {
+    "nestedKey": "nestedValue"
+  },
+  "key3": ["item1", "item2"]
+}
+{
   "ios": {
     "iosPath": "E:\\habico\\ios\\App\\App.xcodeproj",
     "build": {
