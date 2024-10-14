@@ -3,7 +3,10 @@
     "iosPath": "E:\\habico\\ios\\App\\App.xcodeproj",
     "build": {
       "developmentTeam": "YOUR_TEAM_ID",
-      "provisioningProfile": "YOUR_PROVISIONING_PROFILE"
+      "provisioningProfile": "YOUR_PROVISIONING_PROFILE",
+      "exportOptions": {
+        "method": "app-store"
+      }
     }
   }
 }
