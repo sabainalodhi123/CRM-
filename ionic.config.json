@@ -10,10 +10,8 @@
     "android": {
       "electronJS": "electron.js"
     }
-  } 
-{
-  "ios": {
-    "iosPath": "./platforms/ios/CRM-.xcodeproj"
-  }
-}
+  } ,
+    "ios": {
+      "iosPath": "./platforms/ios/CRM-.xcodeproj"
+    }
 }
