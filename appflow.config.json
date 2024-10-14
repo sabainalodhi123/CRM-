@@ -1,19 +1,20 @@
 {
-  "app": {
-    "id": "CRM",
-    "name": "CRM",
-    "version": "1.0.0"
-  },
-  "build": {
-    "platforms": ["ios"],
-    "config": {
-      "ios": {
-        "buildSettings": {
-          "PRODUCT_BUNDLE_IDENTIFIER": "com.Habico.yourapp",
-          "CODE_SIGN_IDENTITY": "909090909",
-          "PROVISIONING_PROFILE_SPECIFIER": "habico"
-        }
-      }
-    }
-  }
+    "apps":
+    [
+        {
+            "appId": "a0000a0a",
+            "root": "apps/my-app",
+            "dependencyInstallCommand": "npm install",
+            "webBuildCommand": "ionic build",
+            "iosPath": "platforms/ios",
+            "androidPath": "platforms/android",
+            "iosConfig": {
+                "scheme": "my-app",
+                "configuration": "Release",
+                "archivePath": "archives/my-app.xcarchive",
+                "ipaPath": "archives/my-app.ipa"
+            }
+        },
+        ...
+    ]
 }
