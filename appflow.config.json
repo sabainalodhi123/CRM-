@@ -1,5 +1,9 @@
 {
   "ios": {
-    "iosPath": "App/App.xcodeproj"
+    "iosPath": "E:\\habico\\ios\\App\\App.xcodeproj",
+    "build": {
+      "developmentTeam": "YOUR_TEAM_ID",
+      "provisioningProfile": "YOUR_PROVISIONING_PROFILE"
+    }
   }
 }
