@@ -8,7 +8,6 @@
             "webBuildCommand": "ionic build",
             "iosPath": "platforms/ios",
             "androidPath": "platforms/android"
-        },
-        ...
+        }
     ]
 }
