@@ -1,5 +1,5 @@
 {
-  "ios": {
-    "iosPath": "./platforms/ios/CRM-.xcodeproj"
+  "android": {
+    "androidPath": "./platforms/android/app"
   }
 }
