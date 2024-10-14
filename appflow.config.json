@@ -1,1 +1,25 @@
-
+{
+  "app": {
+    "id": "your_app_id",
+    "name": "Your App Name",
+    "version": "1.0.0"
+  },
+  "build": {
+    "platforms": ["ios"],
+    "config": {
+      "ios": {
+        "buildSettings": {
+          "PRODUCT_BUNDLE_IDENTIFIER": "com.yourcompany.yourapp",
+          "CODE_SIGN_IDENTITY": "iPhone Developer",
+          "PROVISIONING_PROFILE_SPECIFIER": "your_provisioning_profile"
+        }
+      }
+    }
+  },
+  "deploy": {
+    "store": {
+      "username": "your_app_store_username",
+      "password": "your_app_store_password"
+    }
+  }
+}
